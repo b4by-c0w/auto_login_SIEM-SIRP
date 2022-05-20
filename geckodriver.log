@@ -1,0 +1,45 @@
+1651162663008	geckodriver	INFO	Listening on 127.0.0.1:51277
+1651162666008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51278" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\PHUC\\AppData\\Local\\Temp\\rust_mozprofilefGjbY1"
+1651162666337	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PHUC\\AppData\\Local\\Temp\\rust_mozprofilefGjbY1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51278/devtools/browser/90d585e2-26c6-4eb1-8680-81d38d1d7646
+1651162667695	Marionette	INFO	Listening on port 51296
+Read port: 51296
+1651162667757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651162694719	Marionette	INFO	Stopped listening on port 51296
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1651162950926	geckodriver	INFO	Listening on 127.0.0.1:51450
+1651162953968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51451" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\PHUC\\AppData\\Local\\Temp\\rust_mozprofileL7iq2W"
+1651162954279	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PHUC\\AppData\\Local\\Temp\\rust_mozprofileL7iq2W\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51451/devtools/browser/8e82e381-f2d6-470f-a9c2-84b6eb40ee60
+1651162955523	Marionette	INFO	Listening on port 51475
+Read port: 51475
+1651162955562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://hsoc.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://hsoc.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1123: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1123: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://sirp.hsoc.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://sirp.hsoc.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://sirp.hsoc.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1651163220374	Marionette	INFO	Stopped listening1651163556894	Marionette	INFO	Stopped listening on port 51660
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 5628, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
